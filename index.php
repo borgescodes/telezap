@@ -12,18 +12,18 @@ if (isset($_SESSION['unique_id'])) {
     <section class="form signup">
       <header>
         <img src="php/images/telezap.png" alt="Ícone TeleZap" class="header-icon">
-        TeleZap Beta
+        TeleZap V1.0.0
       </header>
       <form action="#" method="POST" enctype="multipart/form-data" autocomplete="off">
         <div class="error-text"></div>
         <div class="name-details">
           <div class="field input">
             <label>Primeiro Nome</label>
-            <input type="text" name="fname" placeholder="" required>
+            <input type="text" name="fname" placeholder="Inserir Nome" required>
           </div>
           <div class="field input">
             <label>Último Name</label>
-            <input type="text" name="lname" placeholder="" required>
+            <input type="text" name="lname" placeholder="Inserir Sobrenome" required>
           </div>
         </div>
         <div class="field input">

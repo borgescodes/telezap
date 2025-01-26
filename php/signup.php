@@ -2,10 +2,9 @@
     ini_set('display_errors', 1);
     error_reporting(E_ALL);
 
-    // Incluir a configuração do banco de dados antes de usar a variável $conn
-    include_once "config.php";  // Configuração de conexão com o banco de dados
     
-    // Verificar a conexão com o banco de dados
+    include_once "config.php";
+    
     if (!$conn) {
         die("Connection failed: " . mysqli_connect_error());
     }
@@ -61,7 +60,7 @@
                                     if (mysqli_num_rows($select_sql2) > 0) {
                                         $result = mysqli_fetch_assoc($select_sql2);
                                         $_SESSION['unique_id'] = $result['unique_id'];
-                                        echo "Successo";
+                                        echo "success";
                                     } else {
                                         echo "Este endereço de e-mail não existe!";
                                     }

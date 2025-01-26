@@ -12,7 +12,7 @@ if (isset($_SESSION['unique_id'])) {
     <section class="form login">
       <header>
         <img src="php/images/telezap.png" alt="Ícone TeleZap" class="header-icon">
-        TeleZap Alpha
+        TeleZap V1.0.0
       </header>
       <form action="#" method="POST" enctype="multipart/form-data" autocomplete="off">
         <div class="error-text"></div>

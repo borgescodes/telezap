@@ -1,8 +1,7 @@
--- Configurações opcionais (remova se não for necessário)
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
--- Criação das tabelas
+-- tabelas
 CREATE TABLE `messages` (
   `msg_id` int(11) NOT NULL AUTO_INCREMENT,
   `incoming_msg_id` int(11) NOT NULL,
@@ -23,5 +22,5 @@ CREATE TABLE `users` (
   PRIMARY KEY (`user_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- Commit (garantir transação)
+-- (garantir transação)
 COMMIT;

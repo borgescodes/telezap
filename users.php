@@ -24,10 +24,11 @@
           </div>
         </div>
         <a href="php/logout.php?logout_id=<?php echo $row['unique_id']; ?>" class="logout">Sair</a>
+        <button class="logout" id="delete-account-btn">Excluir Conta</button>
       </header>
       <div class="search">
         <span class="text">Inicie uma conversa selecionando um usuário. 
-          programação web ~ borgescodes 2024</span>
+          programação web ~ tads 2025</span>
         <input type="text" placeholder="Insira um nome para pesquisar...">
         <button><i class="fas fa-search"></i></button>
       </div>
@@ -36,8 +37,8 @@
       </div>
     </section>
   </div>
-
   <script src="javascript/users.js"></script>
+  <script src="javascript/delete-account.js"></script>
 
 </body>
 </html>
